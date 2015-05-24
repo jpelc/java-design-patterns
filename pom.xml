@@ -7,9 +7,6 @@
     <groupId>jpelc.learning.designpatterns</groupId>
     <artifactId>java-design-patterns</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>abstract-factory</module>
-    </modules>
     <packaging>pom</packaging>
 
     <name>java-design-patterns</name>
@@ -25,9 +22,10 @@
         <guava.version>18.0</guava.version>
     </properties>
 
-    <!--<modules>-->
-        <!--<module>abstract-factory</module>-->
-    <!--</modules>-->
+    <modules>
+        <module>abstract-factory</module>
+        <module>builder</module>
+    </modules>
 
     <dependencyManagement>
         <dependencies>
